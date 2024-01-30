@@ -1,0 +1,19 @@
+#wrapper {
+    width: 700px;
+    height: 730px;
+    background-color: #a6e1ec;
+    border: 1px solid #000000;
+    padding: 10px 20px;
+}
+
+span {
+    width: 500px;
+    height: 200px;
+    padding: 10px 20px;
+    border: 1px solid #000000;
+}
+
+span p {
+    color: blueviolet;
+    font-weight: bold;
+}
