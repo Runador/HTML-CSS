@@ -1,0 +1,19 @@
+body {
+    background-color: #e4e978;
+}
+
+article {
+    margin: 15px 10px;
+    padding: 5px 15px;
+    width: 600px;
+    background-color: #f2f4c0;
+    border: 2px solid #cccf81;
+}
+
+p em {
+    color:  #5c6e91;
+}
+
+h1 em {
+    color: #5c6e91;
+}
