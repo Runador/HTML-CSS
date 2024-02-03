@@ -1,0 +1,11 @@
+#wrapper {
+    width: 300px;
+    padding: 10px 10px;
+    background-color: #dddddd;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+
+ol > li {
+    color: #95191a;
+}
