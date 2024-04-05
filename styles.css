@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Merriweather', serif;
+}
+
+body, table, input {
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 { font-size: 2.8em; }
+h2 { font-size: 2.2em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.6em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.0em; }
+
+.site {
+    max-width: 66ch;
+    margin: 0 auto;
+}
