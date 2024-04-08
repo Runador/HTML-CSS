@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form action="submitted.html" method="get">
+      <h2>Select a car brand</h2>
+      <div>
+        <label for="volvo">Volvo</label>
+        <input type="checkbox" id="volvo" value="VOLVO" name="brand" />
+        <label for="bmw">BMW</label>
+        <input type="checkbox" id="bmw" value="BMW" name="brand" />
+        <label for="lexus">Lexus</label>
+        <input type="checkbox" id="lexus" value="LEXUS" name="brand" />
+      </div>
+      <br />
+      <h2>Select a location</h2>
+      <div>
+        <label for="de">Germany</label>
+        <input type="radio" id="de" name="location" />
+        <label for="bg">Bulgaria</label>
+        <input type="radio" id="bg" name="location" />
+        <label for="it">Italy</label>
+        <input type="radio" id="it" name="location" />
+      </div>
+      <br />
+      <div>
+        <p><label for="email">Enter your email:</label></p>
+        <input
+          type="email"
+          size="54"
+          name="email"
+          required
+          autofocus
+          placeholder="Enter a valid email address"
+        />
+      </div>
+      <hr />
+
+      <label for="size">Size:</label>
+      <select name="size" id="size">
+        <option value="37">37 EU</option>
+        <option value="37">39 EU</option>
+        <option value="37">41 EU</option>
+        <option value="37">43 EU</option>
+        <option value="37">45 EU</option>
+        <option value="37">47 EU</option>
+        <option value="37">49 EU</option>
+        <option value="37">51 EU</option>
+        <option value="37">53 EU</option>
+        <option value="37">55 EU</option>
+        <option value="37">57 EU</option>
+        <option value="37">59 EU</option>
+        <option value="37">61 EU</option>
+        <option value="37">63 EU</option>
+        <option value="37">65 EU</option>
+      </select>
+
+      <hr />
+
+      <fieldset class="fieldset">
+        <legend>Customer Details</legend>
+        <input type="text" name="fName" required />
+        <input type="text" name="lName" required />
+      </fieldset>
+
+      <fieldset class="fieldset">
+        <legend>Order Details</legend>
+        <legend>Quantity:</legend>
+        <input type="number" name="quantity" />
+        <legend>Remarks:</legend>
+        <textarea name="remarks" cols="30" rows="10"></textarea>
+      </fieldset>
+
+      <hr />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
